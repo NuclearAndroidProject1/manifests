@@ -438,25 +438,11 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project name="darkobas/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="M-caf"/>
-  <project path="system/core" name="darkobas/android_system_core" remote="github" revision="M-caf" />
-
-  <project path="frameworks/base" name="darkobas/frameworks_base" remote="github" revision="M-caf" />
-  <project name="darkobas/android_frameworks_support" path="frameworks/support" remote="github" revision="M-caf" />
-
-  <project name="darkobas/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="M-caf" />
+  
   <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" />
-  <project name="darkobas/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="M-caf" />
-  <project name="darkobas/android_packages_apps_Packageinstaller" path="packages/apps/PackageInstaller" remote="github" revision="M-caf" />
-  <project path="packages/apps/Settings" name="darkobas/android_packages_apps_Settings" remote="github" revision="M-caf" />
+  
 
-  <project path="system/qcom" name="darkobas/android_system_qcom" remote="github" revision="M-caf" />
-
-
-  <project name="darkobas/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="github" revision="M-caf"/>
-  <project name="darkobas/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="M-caf"/>
-
-  <project name="darkobas/android_external_boringssl" path="external/boringssl" remote="github" revision="M-caf"/>
+  
 
   <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom-opensource/bluetooth" />
 
@@ -464,27 +450,44 @@
 
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-13.0" />
 
-<!-- AOSParadox Vendor -->
-
-  <project path="vendor/aosparadox" name="darkobas/android_vendor_aosparadox" remote="github" revision="M-caf" >
-    <copyfile src="build.sh" dest="build.sh" />
-  </project>
-
-<!-- END AOSParadox Stuff -->
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="github" revision="cm-13.0" />
-  <project path="external/sepolicy" name="darkobas/android_external_sepolicy" remote="github" revision="M-caf" />
+  
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="github" revision="cm-13.0" />
   <project path="packages/apps/Apollo" name="Omnirom/android_packages_apps_Apollo" remote="github" revision="android-6.0" />
   <project path="packages/apps/Launcher3" name="Omnirom/android_packages_apps_Launcher3" remote="github" revision="android-6.0" />
   <project name="sultanxda/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="github" revision="cm-13.0-caf" />
-  <project name="darkobas/android_packages_providers_MediaProvider" path="packages/providers/Mediaprovider" remote="github" revision="M-caf" />
-  <project name="darkobas/android_system_media" path="system/media" remote="github" revision="M-caf"/>
-  <project name="darkobas/android_system_extras" path="system/extras" remote="github" revision="M-caf"/>
-  <project path="packages/apps/InCallUI" name="darkobas/android_packages_apps_InCallUI" remote="github" revision="M-caf" />
+  
+  
   <project path="packages/apps/OpenDelta" name="darkobas/android_packages_apps_OpenDelta" remote="github" revision="M-caf" />
-  <project path="frameworks/opt/net/ims" name="darkobas/android_frameworks_opt_net_ims" remote="github" revision="M-caf" />
+  
   <project name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_external_google" path="external/google" remote="github" revision="cm-13.0" />
   <project name="dirtyunicorns/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github" revision="m" />
+  
+  <!--Nuclear Android Project-->
+  <project path="frameworks/opt/net/ims" name="NuclearAndroidProject1/android_frameworks_opt_net_ims" remote="github" revision="master" />
+  <project path="packages/apps/InCallUI" name="NuclearAndroidProject1/android_packages_apps_InCallUI" remote="github" revision="master" />
+  <project name="NuclearAndroidProject1/android_system_media" path="system/media" remote="github" revision="master"/>
+  <project name="NuclearAndroidProject1/android_system_extras" path="system/extras" remote="github" revision="master"/>
+  <project name="NuclearAndroidProject1/android_packages_providers_MediaProvider" path="packages/providers/Mediaprovider" remote="github" revision="master" />
+  <project path="external/sepolicy" name="NuclearAndroidProject1/android_external_sepolicy-1" remote="github" revision="M-caf" />
+  <project path="vendor/NuclearAndroidProject" name="NuclearAndroidProject1/android_vendor_aosparadox-1" remote="github" revision="t" >
+    <copyfile src="build.sh" dest="build.sh" />
+  </project>
+  <project name="NuclearAndroidProject1/android_external_boringssl" path="external/boringssl" remote="github" revision="master"/>
+  <project name="NuclearAndroidProject1/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="master" />
+  <project name="NuclearAndroidProject1/android_packages_apps_Packageinstaller" path="packages/apps/PackageInstaller" remote="github" revision="master" />
+  <project path="packages/apps/Settings" name="NuclearAndroidProject1/android_packages_apps_Settings" remote="github" revision="master" />
+  <project path="system/qcom" name="NuclearAndroidProject1/android_system_qcom" remote="github" revision="master" />
+  <project name="NuclearAndroidProject1/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="github" revision="master"/>
+  <project name="NuclearAndroidProject1/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="master"/>
+  
+  
+  <project name="NuclearAndroidProject1/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="master"/>
+  <project path="system/core" name="NuclearAndroidProject1/android_system_core" remote="github" revision="master" />
+  <project path="frameworks/base" name="NuclearAndroidProject1/frameworks_base" remote="github" revision="M-caf" />
+  <project name="NuclearAndroidProject1/android_frameworks_support" path="frameworks/support" remote="github" revision="M-caf" />
+  <project name="NuclearAndroidProject1/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="M-caf" />
+  
 </manifest>
