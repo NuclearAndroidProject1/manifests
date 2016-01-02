@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="par"
-            fetch="git://github.com/aosparadox/"
-            sync-c="true"
-            sync-j="4"
-            revision="marshmallow_msm8974" />
-
-  <remote  name="aosparadox"
-           fetch="ssh://git@github.com/aosparadox/"
-           sync-c="true" />
-
+  
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            sync-c="true"
            review="android-review.googlesource.com" />
-
-  <remote  name="sm"
-           fetch="https://github.com/SaberMod/" />
 
   <remote  name="github"
           fetch="https://github.com/"
@@ -25,7 +13,7 @@
 
   <remote  name="caf"
            sync-c="true"
-	   fetch="git://codeaurora.org/" 
+	   fetch="https://source.codeaurora.org/" 
 	   review="codeaurora.org"/>
 
   <default remote="caf" revision="LA.BF.1.1.3_rb1.7"/>
