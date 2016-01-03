@@ -417,7 +417,7 @@
   <project name="NuclearAndroidProject1/android_system_extras" path="system/extras" remote="github" revision="master"/>
   <project name="NuclearAndroidProject1/android_packages_providers_MediaProvider" path="packages/providers/Mediaprovider" remote="github" revision="master" />
   <project path="external/sepolicy" name="NuclearAndroidProject1/android_external_sepolicy-1" remote="github" revision="M-caf" />
-  <project path="vendor/NuclearAndroidProject" name="NuclearAndroidProject1/android_vendor_aosparadox-1" remote="github" revision="t" >
+  <project path="vendor/NuclearAndroidProject" name="NuclearAndroidProject1/android_vendor_nap-1" remote="github" revision="t" >
     <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project name="NuclearAndroidProject1/android_external_boringssl" path="external/boringssl" remote="github" revision="master"/>
