@@ -472,4 +472,5 @@
   <project path="frameworks/minikin" name="NuclearAndroidProject1/android_frameworks_minikin" remote="github" revision="master" />
   <project name="NuclearAndroidProject1/android_libcore" path="libcore" remote="github" revision="master"/>
   <project name="NuclearAndroidProject1/android_bionic" path="bionic" remote="github" revision="master" />
+  <project path="frameworks/opt/cards" name="NuclearCM/frameworks_opt_cards" remote="github" revision="marshmallow" />
 </manifest>
