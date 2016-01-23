@@ -474,6 +474,6 @@
   <project name="omnirom/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="github" revision="android-6.0"/>
   <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="github" revision="cm-13.0" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-13.0" />
-  <project name="NuclearAndroidProject1/packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="master"/>
+  <project name="NuclearAndroidProject1/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="github" revision="master"/>
 
 </manifest>
