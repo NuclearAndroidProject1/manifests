@@ -16,7 +16,7 @@
 	   fetch="https://source.codeaurora.org/" 
 	   review="codeaurora.org"/>
 
-  <default remote="caf" revision="LA.BF.1.1.3_rb1.8"/>
+  <default remote="caf" revision="LA.BF.1.1.3_rb1.10"/>
   <project groups="pdk-cw-fs" name="device/common"/>
   <project groups="pdk" name="device/generic/arm64"/>
   <project groups="pdk" name="device/generic/armv7-a-neon"/>
@@ -413,7 +413,7 @@
   <project name="NuclearAndroidProject1/android_system_media" path="system/media" remote="github" revision="master"/>
   <project name="NuclearAndroidProject1/android_system_extras" path="system/extras" remote="github" revision="master"/>
   <project name="NuclearAndroidProject1/android_packages_providers_MediaProvider" path="packages/providers/Mediaprovider" remote="github" revision="master" />
-  <project path="external/sepolicy" name="NuclearAndroidProject1/android_external_sepolicy-1" remote="github" revision="M-caf" />
+  <project path="external/sepolicy" name="NuclearAndroidProject1/android_external_sepolicy" remote="github" revision="master" />
   <project path="vendor/NuclearAndroidProject" name="NuclearAndroidProject1/android_vendor_nap-1" remote="github" revision="t" >
     <copyfile src="build.sh" dest="build.sh" />
   </project>
